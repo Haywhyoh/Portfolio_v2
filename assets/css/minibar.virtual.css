@@ -302,8 +302,12 @@
     border-radius: 50%;
 }
 
+.intro .text-slider-items {
+    display: none;
+  }
+
 .timeline li .title {
-    width: 150px;
+    width: 200px;
     padding: 6px 20px;
     background-color: #747474;
     color: #fff;

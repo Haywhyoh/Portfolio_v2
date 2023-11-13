@@ -94,7 +94,35 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     text-align: left;
   }
 
+  .about-img-holder {
+    min-width: 400px;
+    max-width: 400px;
+    margin-right: 20px;
+  }
+  
+  .about-img-holder .about-img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
 
+  .intro .text-slider-items {
+    display: none;
+  }
+
+  .intro .intro-title {
+    font-size: 4.5rem;
+  }
+
+  .intro .intro-subtitle {
+    font-size: 2.5rem;
+  }
+
+  .intro-single .intro-title {
+    font-size: 3.5rem;
+  }
+
+  
 @media (max-width: 991.98px) {  
 .about {
     display: -webkit-box;
@@ -323,7 +351,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   .testimonial-card-img-holder {
     min-width: 45px;
     max-width: 45px;
-    z-index: 999;
+    z-index: 5;
   }
   
   .testimonial-card-img {
