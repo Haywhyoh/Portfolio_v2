@@ -336,6 +336,21 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     visibility: visible;
   }
 
+  .portfolio-link {
+    background-color: #f0f3f8;
+    color: #212529;
+    padding: 8px;
+    border-radius: 100%;
+    margin-right: 20px;
+
+
+  }
+
+  .link-container{
+    display: flex;
+    justify-content: center;
+  }
+
 /* testmonial card */
 .testimonial-card {
     display: -webkit-box;
