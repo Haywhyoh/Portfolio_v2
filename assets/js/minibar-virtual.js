@@ -80,6 +80,7 @@ $(document).ready(function() {
   // Tooltip
   $('[data-toggle="tooltip"]').tooltip();
 
+
   // Page animation initialize
   new WOW().init();
   
@@ -228,4 +229,30 @@ $(window).on("load", function() {
 });
 
 	/*--/ Star Typed /--*/
-
+  $('#myModal').on('show.bs.modal', function (event) {
+    var iframe = $(this).find('iframe');
+    if (!iframe.attr('src')) {
+      iframe.attr('src', iframe.data('src'));
+    }
+  });
+  $('#myModal2').on('show.bs.modal', function (event) {
+    var iframe = $(this).find('iframe');
+    if (!iframe.attr('src')) {
+      iframe.attr('src', iframe.data('src'));
+    }
+  });  $('#myModal3').on('show.bs.modal', function (event) {
+    var iframe = $(this).find('iframe');
+    if (!iframe.attr('src')) {
+      iframe.attr('src', iframe.data('src'));
+    }
+  });  $('#myModal4').on('show.bs.modal', function (event) {
+    var iframe = $(this).find('iframe');
+    if (!iframe.attr('src')) {
+      iframe.attr('src', iframe.data('src'));
+    }
+  });  $('#myModal5').on('show.bs.modal', function (event) {
+    var iframe = $(this).find('iframe');
+    if (!iframe.attr('src')) {
+      iframe.attr('src', iframe.data('src'));
+    }
+  });
