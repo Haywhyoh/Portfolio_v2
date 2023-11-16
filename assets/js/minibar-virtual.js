@@ -196,7 +196,7 @@ counterInit();
 $(window).on("load", function() {
   var t = $(".portfolio-container");
   t.isotope({
-      filter: ".new",
+      filter: ".web",
       animationOptions: {
           duration: 750,
           easing: "linear",
